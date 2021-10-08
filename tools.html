@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="This website is made for presentation purposes. Free tools for software and web development.">
-        <meta name="keywords" content="Tools">
+        <meta name="keywords" content="Tools, bootstrap, jquery, pixabay, yaml, google map, css, javascript, 2d distance, javascript hero, ">
         <meta name="author" content="https://github.com/GaborIreHun">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tools</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <style>
+
             .container {
                 margin-top: 5%;                
             }
@@ -17,6 +18,19 @@
             .mb-0 {
                 padding-bottom: 5%;
             }
+
+            .card-img-top {
+                width: 100%;
+                height: 15vw;
+                object-fit: cover;
+                
+            }
+
+            .card {
+                height: calc(100% - 15px);
+                margin-bottom: 15px;
+            }
+
         </style>
 
     </head>
@@ -45,7 +59,7 @@
         </nav>
 
         <div class="container">            
-            <div class="row">
+            <div class="row my-flex-card">
                 
                 <div class="col-lg-3 col-sm-6">
                     <div class="card">
@@ -119,7 +133,7 @@
                         <a href="https://www.calculatorsoup.com/calculators/geometry-plane/distance-two-points.php"><img class="card-img-top img-thumbnail" src="images/tools_2dcalc.png" alt="Home"></a>
                         <div class="card-body">
                             <h4 class="card-title text-center">2D Distance Calculator</h4>
-                            <p class="card-text"></p>
+                            <p class="card-text text-center">"Calculate the distance between 2 points in 2 dimensional space."</p>
                         </div>
                     </div>                    
                 </div>
@@ -145,7 +159,7 @@
                         <a href="https://kalkicode.com/ai/online-java-to-csharp-converter"><img class="card-img-top img-thumbnail" src="images/tools_javaTocsharp.jpg" alt="Home"></a>
                         <div class="card-body">
                             <h4 class="card-title text-center">Java to C#</h4>
-                            <p class="card-text"></p>
+                            <p class="card-text">"This is a transpiler, which syntactically converts Java code to C# equivalent code. This is simplest and interactive code converter which is support java 8 packages."</p>
                         </div>
                     </div>                    
                 </div>
@@ -155,7 +169,7 @@
                         <a href="https://www.mybib.com/tools/harvard-referencing-generator"><img class="card-img-top img-thumbnail" src="images/tools_harvard.png" alt="Home"></a>
                         <div class="card-body">
                             <h4 class="card-title text-center">Harvard Referencing</h4>
-                            <p class="card-text"></p>
+                            <p class="card-text">"A Harvard Referencing Generator is a tool that automatically generates formatted academic references in the Harvard style."</p>
                         </div>
                     </div>                    
                 </div>
@@ -165,7 +179,7 @@
                         <a href="https://haveibeenpwned.com/"><img class="card-img-top img-thumbnail" src="images/tools_pwned.jpg" alt="Home"></a>
                         <div class="card-body">
                             <h4 class="card-title text-center">Have you been pwned?</h4>
-                            <p class="card-text"></p>
+                            <p class="card-text">"Check if your email or phone is in a data breach."</p>
                         </div>
                     </div>                    
                 </div>
@@ -175,18 +189,20 @@
                         <a href="https://www.youronlinechoices.com/ie/your-ad-choices"><img class="card-img-top img-thumbnail" src="images/tools_uronline.png" alt="Home"></a>
                         <div class="card-body">
                             <h4 class="card-title text-center">Your Online Choices</h4>
-                            <p class="card-text">YAML validator: "Paste in your YAML and click "Go" - we'll tell you if it's valid or not, and give you a nice clean UTF-8 version of it. Optimized for Ruby."</p>
+                            <p class="card-text">Companies listed are some of the providers who work with websites to collect and use information to provide interest-based advertising.</p>
                         </div>
                     </div>                    
                 </div>
 
             </div>
+            <hr>
+            <p class="mb-0 text-center">If you have more free tool tips for your fellow Developers, contact me and I can add them here.</p>
         </div>
 
         
         
         <footer class="bottom py-2 bg-dark">
-            <div class="container">
+            <div class="container1">
                 <p class="m-0 text-center text-white"><a href="https://github.com/GaborIreHun" class="text-center text-white">Author: GaborIreHun - Licence: MIT</a> </p>
             </div>
         </footer>
