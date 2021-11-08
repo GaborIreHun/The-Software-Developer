@@ -57,10 +57,19 @@
                 </div>                
         </nav>
 
-        <div class="messages"></div>
+        <div class="messages">
+            <p class="mb-0 text-center lead">Due to GitHub Terms and Conditions </p>
+        </div>
 
         <div class="container fluid">
-            <form id="contact-form" class="doc col-md-6 offset-md-3" method="post" action="contact.php" role="form">
+            <!--
+            <form action="https://formspree.io/f/{form_id}" method="post">
+                <label for="email">Your Email</label>
+                <input name="Email" id="email" type="email">
+                <button type="submit">Submit</button>
+            </form>-->
+            
+            <form id="contact-form" class="doc col-md-6 offset-md-3" method="post" action="https://formspree.io/f/{form_id}" role="form">
                 <div class="form-group">
                   <label for="emailForm">Email address</label>
                   <input type="email" class="form-control" id="form_email" name="email" aria-describedby="emailHelp" placeholder="Your email" required="required" data-error="Email is required.">
