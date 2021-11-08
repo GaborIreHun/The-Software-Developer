@@ -59,10 +59,11 @@
         </nav>
 
         <div class="messages">
-            <p class="mb-0 text-center lead">Due to GitHub Terms and Conditions </p>
+            
         </div>
 
         <div class="container fluid">
+
             <script>
                 /* paste this line in verbatim */
                 window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
@@ -96,21 +97,7 @@
                   }
                 });
               </script>
-              <form
-              action="https://formspree.io/f/mpzkgnnd"
-              method="POST"
-            >
-              <label>
-                Your email:
-                <input type="email" name="_replyto">
-              </label>
-              <label>
-                Your message:
-                <textarea name="message"></textarea>
-              </label>
-              <!-- your other form fields go here -->
-              <button type="submit">Send</button>
-            </form>
+              
               
             <!--
             <form action="https://formspree.io/f/{form_id}" method="post">
@@ -118,8 +105,8 @@
                 <input name="Email" id="email" type="email">
                 <button type="submit">Submit</button>
             </form>
-            
-            <form id="contact-form" class="doc col-md-6 offset-md-3" method="POST" action="https://formspree.io/f/mpzkgnnd" role="form">
+            -->
+            <form id="contact-form" class="doc col-md-6 offset-md-3" method="POST" action="https://formspree.io/f/mpzkgnnd">
                 <div class="form-group">
                   <label for="emailForm">Email address</label>
                   <input type="email" class="form-control" id="form_email" name="_replyto" aria-describedby="emailHelp" placeholder="Your email" required="required" data-error="Email is required.">
@@ -128,17 +115,17 @@
                 </div>
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="text" class="form-control" id="form_name" name="name" placeholder="Your name" required="required" data-error="Name is required.">
+                  <input type="text" class="form-control" id="form_name" name="_replyto" placeholder="Your name" required="required" data-error="Name is required.">
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="form-group">
                     <label for="textForm">Your thoughts</label>
-                    <textarea class="form-control" id="form_message" name="message" rows="3" placeholder="Your thoughts" required="required" data-error="Message is required."></textarea>
+                    <textarea class="form-control" id="form_message" name="_replyto" rows="3" placeholder="Your thoughts" required="required" data-error="Message is required."></textarea>
                     <div class="help-block with-errors"></div>
                 </div>
 
                 <button type="submit" class="btn btn-primary btn-send" value="Send message">Send message</button>
-              </form>-->
+              </form>
         </div>
         
         <footer class="fixed-bottom py-2 bg-dark">
