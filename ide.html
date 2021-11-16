@@ -9,6 +9,55 @@
         <title>IDEs</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
+        <style>
+
+        @media screen and (min-width:850px) {
+
+        .container {
+            margin-top: 5%;                
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+            
+        }
+
+        .card {
+            height: calc(100% - 15px);
+            margin-bottom: 15px;
+        }
+        }
+
+        @media screen and (max-width:849px) {
+
+        .container {
+            margin-top: 15%;                
+        }
+
+        .card-img-top {
+            width: 26rem;
+            height:50vw;
+            object-fit: cover;
+            
+        }
+
+        .card {
+            height: calc(60% - 15px);
+            margin-bottom: 15px;
+        }
+
+        }
+
+        .mb-0 {
+            padding-bottom: 5%;
+        }
+
+        </style>
+
+
+
     </head>
     <body>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,7 +65,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">The Software Developer</a>
+                <a href="index.html" class="navbar-brand">The Software Developer</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,18 +75,101 @@
                         <li class="nav-item active"><a class="nav-link" href="ide.html">IDE-s</a></li>
                         <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>                        
                         <li class="nav-item"><a class="nav-link" href="c-sharp.html">C#</a></li>
-                        <li class="nav-item"><a class="nav-link" href="python.html">Python</a></li>
+                        <li class="nav-item"><a class="nav-link" href="java.html">Java</a></li>
                         <li class="nav-item"><a class="nav-link" href="bootstrap.html">Bootstrap</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="references.html">References</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact me</a></li>                       
                     </ul>
                 </div>                
         </nav>
 
+        <div class="container">            
+            <div class="row my-flex-card">
+                
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://www.eclipse.org/"><img class="card-img-top img-thumbnail" src="images/eclipse.JPG" alt="Eclipse"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Eclipse</h4>                            
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://visualstudio.microsoft.com"><img class="card-img-top img-thumbnail" src="images/visualstudio.JPG" alt="Visual Studio"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Visual Studio</h4>                            
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://www.oracle.com/ie/tools/technologies/netbeans-ide.html"><img class="card-img-top img-thumbnail" src="images/netbeans.JPG" alt="NetBeans"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">NetBeans</h4>                            
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://www.jetbrains.com/idea/download/#section=windows"><img class="card-img-top img-thumbnail" src="images/intellij.JPG" alt="Intellj"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">IntelliJ</h4>
+                        </div>
+                    </div>                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">            
+            <div class="row">
+                
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://developer.android.com/studio?gclid=CjwKCAiAm7OMBhAQEiwArvGi3EhlHn7CyIutGX1aDhwOWY1hopx9Ffuo-23nqJ8bJQQcvEFpalyXuRoCnbMQAvD_BwE&gclsrc=aw.ds"><img class="card-img-top img-thumbnail" src="images/androidstudio.JPG" alt="Android Studio"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Android Studio</h4>                            
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://www.jetbrains.com/pycharm/"><img class="card-img-top img-thumbnail" src="images/pycharm.JPG" alt="PyCharm"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">PyCharm</h4>                    
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://www.rstudio.com/"><img class="card-img-top img-thumbnail" src="images/rstudio.JPG" alt="R Studio"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">R Studio</h4>                            
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <a href="https://jupyter.org"><img class="card-img-top img-thumbnail" src="images/jupyter.JPG" alt="Jupyter Notebook"></a>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Jupyter Notebook</h4>                            
+                        </div>
+                    </div>                    
+                </div>
+
+            </div>
+        </div>
+
         
         
         <footer class="fixed-bottom py-2 bg-dark">
-            <div class="container">
+            <div class="container1">
                 <p class="m-0 text-center text-white"><a href="https://github.com/GaborIreHun" class="text-center text-white">Author: GaborIreHun - Licence: MIT</a> </p>
             </div>
         </footer>
